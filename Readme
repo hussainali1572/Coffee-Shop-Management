@@ -35,14 +35,6 @@ Username: abc
 
 Password: def
 
-📝 Sample Bill Output
-markdown
-Copy
-Edit
-Your Total bill is: 3300
-  **************
-(Bill is also saved to coffee_bill.txt.)
-
 ❗ Notes
 This is a basic implementation meant for learning and demonstration.
 
