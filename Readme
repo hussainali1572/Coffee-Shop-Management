@@ -1,0 +1,53 @@
+☕ Coffee Shop Management System
+A simple console-based Coffee Shop Management System developed in C++. It allows users to select items from various menus (Espresso, Chiller, Extras), compute their total bill, and simulate a basic login system.
+
+📋 Features
+🔐 Login system with predefined credentials
+
+☕ Espresso menu with multiple drink options
+
+🧊 Chiller menu for iced beverages
+
+🍫 Extras menu with add-ons like hot chocolate and tea
+
+🧾 Bill generation saved to a file
+
+🔁 Supports multiple orders in a single session
+
+🛠️ Technologies
+C++ (Standard Library)
+
+Console I/O
+
+File handling
+
+📦 File Structure
+Coffee Shop Management.cpp      # Main source code file
+coffee_bill.txt                 # Output file for bills (created at runtime)
+
+▶️ How to Run
+Compile the code using any C++ compiler.
+
+
+Login Credentials:
+
+Username: abc
+
+Password: def
+
+📝 Sample Bill Output
+markdown
+Copy
+Edit
+Your Total bill is: 3300
+  **************
+(Bill is also saved to coffee_bill.txt.)
+
+❗ Notes
+This is a basic implementation meant for learning and demonstration.
+
+Uses goto statements for menu navigation which is generally discouraged in production-grade software.
+
+No input validation for non-numeric values in quantity prompts.
+
+Works on Windows-based systems due to use of <conio.h> (can be modified for cross-platform use).
